@@ -1,10 +1,14 @@
-#set win variable to zero
-#set loses variable to zero
+win = 0.to_i 
+loses = 0.to_i
 
-#Prompt user to chose r, p or s
-#get user input, set to choice variable, make sure it's lowercase
+puts "choose r, p or s"
+user_input = gets.chomp.downcase
+computer = [ 'r', 'p', 's'].sample
 
-#Select computer choice randomly from arrary, set to variable computer
+3.times do 
+  [player, computer] = 
+
+
 
 #Three time do iterate
   #use case statement with [player, computer] (This will be challenging, but totally worth it!)
